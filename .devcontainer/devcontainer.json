@@ -11,6 +11,18 @@
         "6080": {
             "label": "desktop"
         }
-    }
+	    
+    },
+    // Configure tool-specific properties.
+"customizations": {
+	"vscode": {
+		"extensions": [
+			"redhat.java",
+			"vscjava.vscode-java-debug",
+			"vscjava.vscode-java-dependency"
+		]
+	}
+}
+	
 }
 
