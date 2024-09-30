@@ -1,8 +1,11 @@
 {
-    "image": "mcr.microsoft.com/devcontainers/java",
-    "features": {
-        "ghcr.io/devcontainers/features/desktop-lite:1": {}
-    },
+    "name": "Java w/ Desktop",
+	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+	"image": "mcr.microsoft.com/devcontainers/universal:2-linux",
+
+	"features": {
+		"ghcr.io/devcontainers/features/desktop-lite:1": {}
+	},
     "forwardPorts": [6080],
     "portsAttributes": {
         "6080": {
